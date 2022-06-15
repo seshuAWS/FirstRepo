@@ -5,8 +5,8 @@
   - name: remove apache2
     apt:
       name: apache2
-      state: present
-      
+      state: absent
+
 
 
 
